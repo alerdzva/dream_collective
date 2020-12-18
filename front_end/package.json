@@ -38,5 +38,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://thedreamcollective-env.eba-g59ms5fb.us-east-2.elasticbeanstalk.com/"
+  "proxy": "https://dreamcollective.net/"
 }

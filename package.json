@@ -9,6 +9,7 @@
   "author": "Piyum Fernando",
   "license": "ISC",
   "dependencies": {
+    "build": "^0.1.4",
     "express": "^4.17.1",
     "mongoose": "^5.7.4",
     "mongoose-simple-random": "^0.4.1"
