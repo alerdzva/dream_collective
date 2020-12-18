@@ -125,6 +125,7 @@ class SetupPromptsView extends Component {
             onUserAvailable={(userData) => {
               this.handleUserData(userData);
             }}
+            onClose={() => this.setState({ showAuth: false })}
           ></AuthForm>
         )}
         <MainHeader

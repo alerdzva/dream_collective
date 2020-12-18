@@ -9,6 +9,7 @@ import {
   AmplifySignIn,
   AmplifySignOut,
 } from "@aws-amplify/ui-react";
+import Button from "../Button";
 
 const Container = styled.div`
   position: absolute;
@@ -47,6 +48,12 @@ export default function AuthForm(props) {
   };
   return (
     <Container>
+      <Button
+        text={"Close"}
+        onClick={() => {
+          props.onClose();
+        }}
+      ></Button>
       <AmplifyAuthenticator
         usernameAlias="email"
         handleAuthStateChange={(nextAuthState, data) =>

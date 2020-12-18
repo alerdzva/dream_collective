@@ -109,6 +109,7 @@ export default function MainHeader(props) {
             setshowAuthForm(false);
             window.location.reload();
           }}
+          onClose={() => setshowAuthForm(false)}
         ></AuthForm>
       )}
     </Container>
