@@ -148,7 +148,7 @@ class AddResponsesView extends Component {
       prompts: [],
       inputs: [],
       response: null,
-      showDialog: true,
+      showDialog: false,
     };
   }
 
