@@ -125,7 +125,7 @@ class NewFeature extends Component {
       titlePlaceholder: TITLE_PLACEHOLDER,
       description: "",
       descriptionPlaceholder: DESCRIPTION_PLACEHOLDER,
-      topic:props.topicID
+      topic:props.topicId
     };
   }
 

@@ -87,6 +87,7 @@ export function readFeaturesOfTopic(topicId, callback) {
   })
     .then((response) => response.json())
     .then((data) => {
+
       callback(data);
     });
 }
